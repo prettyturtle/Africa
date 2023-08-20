@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     // MARK: - PROPERTIES
     
+    let animals: [Animal] = Bundle.main.decode("animals.json")
     
     // MARK: - BODY
     
@@ -26,6 +27,10 @@ struct ContentView: View {
                             trailing: 0
                         )
                     )
+                
+                ForEach(animals) { animal in
+                    AnimalListItemView(animal: animal)
+                }
             } //: LIST
             .listStyle(.plain)
             .navigationTitle("Africa")
