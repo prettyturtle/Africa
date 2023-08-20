@@ -23,6 +23,7 @@
 		6BFE153D2A9265390085E30B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BFE15592A9266E40085E30B /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
 		6BFE155B2A9266FC0085E30B /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		6BFE155D2A9267EB0085E30B /* yc-Africa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "yc-Africa-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +56,10 @@
 		6BFE15352A9265360085E30B /* yc_Africa */ = {
 			isa = PBXGroup;
 			children = (
+				6BFE155D2A9267EB0085E30B /* yc-Africa-Info.plist */,
 				6BFE155B2A9266FC0085E30B /* data */,
 				6BFE15592A9266E40085E30B /* Video */,
-				6BFE15362A9265360085E30B /* yc_AfricaApp.swift */,
-				6BFE15382A9265360085E30B /* ContentView.swift */,
+				6BFE155E2A9268D30085E30B /* App */,
 				6BFE153A2A9265390085E30B /* Assets.xcassets */,
 				6BFE153C2A9265390085E30B /* Preview Content */,
 			);
@@ -71,6 +72,15 @@
 				6BFE153D2A9265390085E30B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BFE155E2A9268D30085E30B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE15362A9265360085E30B /* yc_AfricaApp.swift */,
+				6BFE15382A9265360085E30B /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,11 +288,12 @@
 				DEVELOPMENT_TEAM = TB9WF4459Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "yc-Africa-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,11 +318,12 @@
 				DEVELOPMENT_TEAM = TB9WF4459Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "yc-Africa-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
