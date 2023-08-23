@@ -62,8 +62,11 @@ struct ContentView: View {
                                 AnimalDetailView(animal: animal)
                             } label: {
                                 AnimalListItemView(animal: animal)
-                            }
-                        }
+                            } //: LINK
+                        } //: LOOP
+                        
+                        CreditsView()
+                            .modifier(CenterModifier())
                     } //: LIST
                     .listStyle(.plain)
                 } else {
